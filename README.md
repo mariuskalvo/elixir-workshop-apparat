@@ -1,6 +1,13 @@
+<p align="center">
+  <img src="./img/elixir_logo.png">
+</p>
+
+
 # Elixir
 
-I denne workshop'en skal vi lære om Elixir og Erlang/OTP. Presentasjonen finner i lenken under.
+I denne workshop'en skal vi lære om Elixir og Erlang/OTP. Målet er at vi skal lære grunnleggende om språket og kjøretidsmiljøet. Det er laget et sett med oppgaver du kan jobbe med.
+
+ Presentasjonen finner i lenken under.
 
 ## Verktøy
 
@@ -18,19 +25,26 @@ Igjennom oppgavene vil du se disse ikonene i workshop-materialet.
 - :bulb: - Ekstra informasjon eller hint
 - :exclamation: - Noe viktig. Dette må du merke deg.
 
-## Spor: "Autobahn"
+## Spor: "Autobahn" :car:
 
-### Oppgave 1 - Oppsett av utviklingsverktøy
-### Oppgave 2 - IEx og REPL-dreven utvikling
-### Oppgave 3 - Input/Output
-### Oppgave 4 - Map, filter, reduce
-### Oppgave 5 - 
+- [Oppgave 1 - Oppsett av utviklingsverktøy](./oppgave1.md)
+- Oppgave 2 - IEx og REPL-dreven utvikling
+- Oppgave 4 - Map, filter, reduce
+  - 4a - FizzBuzz
+  - 4b - Sum av alle oddetall
+  - 4c - 99 Apparater på veggen
+  - 4d - Fibonacci
+- Oppgave 5 - Moduler
+- Oppgave 6 - Enhetstesting og TDD
 
-## Spor: "Dakar Rally"
-### Todo-liste: Konsollapplikasjon
-### Todo-liste: Phoenix LiveView
+## Spor: "Dakar Rally" :racing_car: 
 
-## Nyttige lenker
+- Prosjekt: Todo konsollapplikasjon
+- Prosjekt: Todo Phoenix LiveView web-applikasjon
+
+## :information_source: Nyttige lenker
+- [elixir-lang.org documentation](https://elixir-lang.org/getting-started/introduction.html)
+- [HexDocs documentation](https://hexdocs.pm/elixir/Kernel.html)
 
 ## Cheatsheet
 https://devhints.io/elixir
