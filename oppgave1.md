@@ -1,4 +1,4 @@
-# Oppgave 1 - Maskinoppsett
+# Oppgave 1: Maskinoppsett
 
 ## Nødvendige verktøy
 
