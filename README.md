@@ -28,15 +28,18 @@ Igjennom oppgavene vil du se disse ikonene i workshop-materialet.
 ## Spor: "Autobahn" :car:
 
 - [Oppgave 1 - Oppsett av utviklingsverktøy](./oppgave1.md)
-- Oppgave 2 - IEx og REPL-dreven utvikling
-- Oppgave 4 - Map, filter, reduce
+- [Oppgave 2 - IEx og REPL-dreven utvikling](./oppgave2.md)
+- [Oppgave 3 - Moduler](./oppgave3.md)
+- [Oppgave 4 - Map, filter, reduce](./oppgave3.md)
   - 4a - FizzBuzz
   - 4b - Sum av alle oddetall
-  - 4c - 99 Apparater på veggen
   - 4d - Fibonacci
-- Oppgave 5 - Moduler
-- Oppgave 6 - Enhetstesting og TDD
-
+- Oppgave 5 - Rekursjon
+  - 5a - Fakultet
+  - 5b - Balanserte strenger
+- Oppgave 6 - Tilstand og GenServer
+- Oppgave 7 - Enhetstesting og TDD
+- Oppgave 8 
 ## Spor: "Dakar Rally" :racing_car: 
 
 - Prosjekt: Todo konsollapplikasjon

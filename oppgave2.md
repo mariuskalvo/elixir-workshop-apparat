@@ -1,5 +1,3 @@
-# Oppgave 2
-
 # Oppgave 2: `IEx` - Interactive Elixir
 
 Når du installerer Elixir på maskinen din, får du også en interaktiv REPL som du kan bruke for å evaluere Elixir-kode. 
