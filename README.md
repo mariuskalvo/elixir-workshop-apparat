@@ -25,25 +25,14 @@ Igjennom oppgavene vil du se disse ikonene i workshop-materialet.
 - :bulb: - Ekstra informasjon eller hint
 - :exclamation: - Noe viktig. Dette må du merke deg.
 
-## Spor: "Autobahn" :car:
-
 - [Oppgave 1 - Oppsett av utviklingsverktøy](./oppgave1.md)
 - [Oppgave 2 - IEx og REPL-dreven utvikling](./oppgave2.md)
-- [Oppgave 3 - Moduler](./oppgave3.md)
-- [Oppgave 4 - Map, filter, reduce](./oppgave3.md)
-  - 4a - FizzBuzz
-  - 4b - Sum av alle oddetall
-  - 4d - Fibonacci
-- Oppgave 5 - Rekursjon
-  - 5a - Fakultet
-  - 5b - Balanserte strenger
-- Oppgave 6 - Tilstand og GenServer
-- Oppgave 7 - Enhetstesting og TDD
-- Oppgave 8 
-## Spor: "Dakar Rally" :racing_car: 
-
-- Prosjekt: Todo konsollapplikasjon
-- Prosjekt: Todo Phoenix LiveView web-applikasjon
+- [Oppgave 3 - Moduler og funksjoner](./oppgave3.md)
+- [Oppgave 4 - Map, filter, reduce](./oppgave4.md)
+- [Oppgave 5 - Rekursjon](./oppgave5.md)
+- [Oppgave 6 - Tilstand og GenServer](./oppgave6.md)
+- [Oppgave 7 - Enhetstesting](./oppgave7.md)
+- [Oppgave 8 - Project: Favorite pokemons](./oppgave8.md)
 
 ## :information_source: Nyttige lenker
 - [elixir-lang.org documentation](https://elixir-lang.org/getting-started/introduction.html)
