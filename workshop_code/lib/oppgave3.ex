@@ -1,4 +1,4 @@
-defmodule Exercise1 do
+defmodule Oppgave3 do
 
   def run() do
     IO.inspect("Hello Apparat")

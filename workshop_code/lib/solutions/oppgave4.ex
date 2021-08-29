@@ -1,4 +1,4 @@
-defmodule WorkshopCode.Solutions.Exercise4 do
+defmodule Solutions.Oppgave4 do
 
   """
     FizzBizz ved bruk av Enum.map og cond
