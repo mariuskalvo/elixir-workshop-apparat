@@ -1,29 +1,26 @@
-# Oppgave 3: Map, filter, reduce
+# Oppgave 5: Rekursjon
 
-I denne delen skal vi lære å bruke de vanligste funksjonelle operatorene for å jobbe med lister; `map`, `filter` og `reduce`. 
-
-## 3a: Sum av alle oddetall
-
-:pencil2: Skriv en funksjon som tar inn et tall N, og som returnerer summen av alle oddetal i rekken `0..N`.
+# 5a: Fakultet
+Fakultetet av et tall N er produktet av alle tall i sekvensen 1..N. 
+F.eks. `5! = 1 * 2 * 3 * 4 * 5 = 120`
+Skriv en funksjon der du anvender rekursjon som tar inn et tall og returnerer fakultet av tallet.
 
 ```elixir
-defmodule SumOfOdds do
-  def run(limit) do
-    1..limit
-    |> Enum.filter(fn x -> mod(x, 2) != 0 end)
-    |> Enum.sum()
-  end
-end
+WorkshopCode.Oppgave5.fakultet(5)
+120
+
+WorkshopCode.Oppgave5.fakultet(10)
+3628800
 ```
 
-## 3b: FizzBuzz
+# 5b: Palindrom
+Et palindrom er en sekvens av bokstaver som kan leses på samme måte i begge retninger, som "madam" eller "agnes i senga". 
+Skriv en funksjon der du anvender rekursjon som tar inn en streng som parameter og sjekker om strenger er et palindrom. 
 
-Skriv en funksjon som returnerer verdiene mellom 1 til 100 i en liste, men dersom verdien er delelig på 3, erstatt tallverdi med `"Fizz"`. Dersom tallet er delelig på 5, erstatt med `"Buzz"`. Dersom tallet er delelig på både 3 og 5, erstatt med `"FizzBuzz"`. 
-
-Eksempel:
 ```elixir
-  WorkshopCode.Exercise3.run()
-  ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"...]
-```
+WorkshopCode.Oppgave5.palindrom?("apparat")
+false
 
-## 4d: Fibonacci
+WorkshopCode.Oppgave5.palindrom?("agnes i senga")
+true
+```

@@ -1,0 +1,1 @@
+# Oppgave 7: Tilstand og GenServer

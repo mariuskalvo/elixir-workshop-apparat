@@ -1,22 +1,27 @@
-# Oppgave 3: Moduler og funksjoner
+# Oppgave 3: Map, filter, reduce
 
-## Moduler 
+I denne delen skal vi lære å bruke de vanligste funksjonelle operatorene for å jobbe med lister; `map`, `filter` og `reduce`. 
 
-Vi bruker moduler for å enkapsulere og organisere funksjoner i Elixir. Funksjoner som er relatert til hverandre hører typisk sammen i en modul. F.eks. er alle funksjoner i Elixirs standardbibliotek relatert til streng-manipulasjon i `String`-modulen. 
+## 3a: Sum av alle oddetall
 
-Vi definerer en funksjon i en modul ved å bruke følgende syntaks:
+:pencil2: Skriv en funksjon som tar inn et tall N, og som returnerer summen av alle oddetal i rekken `0..N`.
 
+## 3b: FizzBuzz
+
+Skriv en funksjon som returnerer verdiene mellom 1 til 100 i en liste, men dersom verdien er delelig på 3, erstatt tallverdi med `"Fizz"`. Dersom tallet er delelig på 5, erstatt med `"Buzz"`. Dersom tallet er delelig på både 3 og 5, erstatt med `"FizzBuzz"`. 
+
+Eksempel:
 ```elixir
-defmodule MyModule do
-  def my_function() do
-    IO.puts("Hei")
-  end
-end
+  WorkshopCode.Exercise3.run()
+  ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"...]
 ```
-Her har vi en funksjon `my_function` som ligger i modul `MyModule`. Denne kan kalles fra andre moduler, eller via IEx ved å skrive `MyModule.my_function()`. 
 
-:pencil2: Opprett en modul med en funksjon som returnerer en vilkårlig streng. Opprett så en ny modul i en separat fil, kall funksjonen og laget i den første modulen og skriv ut resultatet. 
+## 4d: Fibonacci-sekvens
 
-## Private og åpne funksjoner
+Tallfølgen `1,1,2,3,5,8,13,...` er bygd opp ved at hvert tall i følgen er summen av de to foregående tallene i følgen. Dette kalles for en fibonacci-sekvens. 
 
+Skriv en funksjon som tar inn et tall N og genererer en de N første fibonacci-tallene. 
 
+## 4e: Fibonacci 2.0
+
+Gitt en fibonacci-sekvens, der høyeste verdi ikke går oven 4 millioner, finn summen av alle fibonacci-tall i sekvensen som er partall. 

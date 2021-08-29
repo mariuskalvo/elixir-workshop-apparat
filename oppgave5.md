@@ -1,29 +1,20 @@
-# Oppgave 5: Rekursjon
+# Oppgave 6: Enhetstesting
 
-# 5a: Fakultet
+I Elixir trenger man ikke eksterne rammerverk for å skrive og kjøre enhetstester. Elixir inkluderer et testrammeverk, ExUnit, som inkluderer alt vi trenger for å skrive enhetstester. 
 
-
-Fakultetet av et tall N er produktet av alle tall i sekvensen 1..N. 
-F.eks. `5! = 1 * 2 * 3 * 4 * 5 = 120`
-Skriv en funksjon der du anvender rekursjon som tar inn et tall og returnerer fakultet av tallet.
+:bulb: Enhetstester i Elixir skrives i `.exs`-filer og ikke i `.ex`-filer. `.exs`-filer som er for å kjøres individuelt og ikke som den del av et mix-prosjekt. 
 
 ```elixir
-WorkshopCode.Oppgave5.fakultet(5)
-120
+defmodule ExampleTest do
+  use ExUnit.Case
+  alias WorkshopCode.Oppgave5
 
-WorkshopCode.Oppgave5.fakultet(10)
-3628800
-```
+  test "is_palindrom returns true if input is palindrome " do
+    assert Oppgave5.is_palindrom?("agnes i senga") == true
+  end
 
-# 5b: Palindrom
-Et palindrom er en sekvens av bokstaver som kan leses på samme måte i begge retninger, som "madam" eller "agnes i senga". 
-Skriv en funksjon der du anvender rekursjon som tar inn en streng som parameter og sjekker om strenger er et palindrom. 
-
-
-```elixir
-WorkshopCode.Oppgave5.palindrom?("apparat")
-false
-
-WorkshopCode.Oppgave5.palindrom?("agnes i senga")
-true
+  test "is_palindrom returns false if input is not palindrome " do
+    assert Oppgave5.is_palindrom?("apparat") == false
+  end
+end
 ```
