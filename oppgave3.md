@@ -31,6 +31,8 @@ Skriv en funksjon som tar inn et tall N og genererer en de N første fibonacci-t
 Eksempel:
 
 ```elixir
+Oppgave3.fibonacci(10)
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 ```
 
 Gå videre til [Oppgave 4 - Rekursjon](./oppgave4.md) :arrow_right:
