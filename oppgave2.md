@@ -25,3 +25,5 @@ Utfør en endring i `lib/oppgave2.ex` ved å f.eks endre retur-verdi i `run`-fun
 :pencil2: Prøv deg frem med å endre innholdet i `run`-metoden. Prøv å legg til en ny metode. Bli kjent med REPL. Den er veldig nyttig!
 
 :bulb: I de neste oppgavene kan du enten kjøre koden din via IEx REPL eller ved å kjøre `mix run -e <ModuleNavn>.<Funksjon>`. F.eks. `mix run -e Exercise1.run`. Det anbefales å bruke IEx for å få en raskere feedback-loop, slik du kan kjøre indivduelle funksjoner.
+
+Gå videre til [Oppgave 3 - Map, filter, reduce ](./oppgave3.md) :arrow_right:

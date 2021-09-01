@@ -99,3 +99,6 @@ For å sende melding til prosessen om at den skal utføre disse callbacks'ene, k
 Eksempel: 
 - `GenServer.call(Stack, :pop)` 
 - `GenServer.cast(Stack, {:push, "Apparat ruler Bergen"})`
+
+
+Gå videre til [Oppgave 7 - Project: Pokemon API](./oppgave7.md) :arrow_right:

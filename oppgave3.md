@@ -32,3 +32,5 @@ Eksempel:
 
 ```elixir
 ```
+
+Gå videre til [Oppgave 4 - Rekursjon](./oppgave4.md) :arrow_right:

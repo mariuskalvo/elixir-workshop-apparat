@@ -30,3 +30,6 @@ defmodule Oppgave4.Tests do
 end
 ```
 
+Gå videre til [Oppgave 6 - Tilstand og GenServer](./oppgave6.md) :arrow_right:
+
+
