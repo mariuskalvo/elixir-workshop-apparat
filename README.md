@@ -2,7 +2,6 @@
   <img src="./img/elixir_logo.png">
 </p>
 
-
 # Elixir
 
 I denne workshop'en skal vi lære om Elixir og Erlang/OTP. Målet er at vi skal lære grunnleggende om språket og kjøretidsmiljøet. Det er laget et sett med oppgaver du kan jobbe med.
@@ -26,6 +25,8 @@ Igjennom oppgavene vil du se disse ikonene i workshop-materialet.
 - :exclamation: - Noe viktig. Dette må du merke deg.
 
 ---
+### [Elixir cheatsheet](https://devhints.io/elixir)
+---
 
 - [Oppgave 1 - Oppsett av utviklingsverktøy](./oppgave1.md)
 - [Oppgave 2 - IEx og REPL-dreven utvikling](./oppgave2.md)
@@ -39,5 +40,3 @@ Igjennom oppgavene vil du se disse ikonene i workshop-materialet.
 - [elixir-lang.org documentation](https://elixir-lang.org/getting-started/introduction.html)
 - [HexDocs documentation](https://hexdocs.pm/elixir/Kernel.html)
 
-## Cheatsheet
-https://devhints.io/elixir
