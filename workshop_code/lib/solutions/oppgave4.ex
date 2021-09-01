@@ -14,4 +14,22 @@ defmodule Solutions.Oppgave4 do
       head == tail && palindrom?(rest)
     end
   end
+
+  def fib_sum(max_value) do
+    fib_to_limit(max_value)
+    |> Enum.filter(fn num -> rem(num, 2) == 0 end)
+    |> Enum.sum()
+  end
+
+  defp fib_to_limit(max_value, numbers \\ [1, 1]) do
+    [second_last, last] = Enum.take(numbers, -2)
+    new_value = second_last + last
+
+    if new_value > max_value do
+      numbers
+    else
+      new_numbers = numbers ++ [new_value]
+      fib_to_limit(max_value, new_numbers)
+    end
+  end
 end

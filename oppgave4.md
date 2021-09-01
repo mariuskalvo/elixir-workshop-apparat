@@ -27,6 +27,12 @@ true
 
 ## 4c: Fibonacci 2.0
 
-Gitt en fibonacci-sekvens, der høyeste verdi ikke går oven 4 millioner, finn summen av alle fibonacci-tall i sekvensen som er partall. 
+Gitt en fibonacci-sekvens, der høyeste verdi ikke går oven 4 millioner, finn summen av alle fibonacci-tall som i sekvensen som er partall. 
 
 Gå videre til [Oppgave 5 - Enhetstesting](./oppgave5.md) :arrow_right:
+
+Eksempel:
+```elixir
+Oppgave4.fib_sum(4_000_000)
+4613732
+```
