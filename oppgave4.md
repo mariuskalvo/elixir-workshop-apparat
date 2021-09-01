@@ -1,6 +1,6 @@
 # Oppgave 4: Rekursjon
 
-# 4a: Fakultet
+## 4a: Fakultet
 Fakultetet av et tall N er produktet av alle tall i sekvensen 1..N. 
 F.eks. `5! = 1 * 2 * 3 * 4 * 5 = 120`
 Skriv en funksjon der du anvender rekursjon som tar inn et tall og returnerer fakultet av tallet.
@@ -13,7 +13,7 @@ WorkshopCode.Oppgave5.fakultet(10)
 3628800
 ```
 
-# 4b: Palindrom
+## 4b: Palindrom
 Et palindrom er en sekvens av bokstaver som kan leses på samme måte i begge retninger, som "madam" eller "agnes i senga". 
 Skriv en funksjon der du anvender rekursjon som tar inn en streng som parameter og sjekker om strenger er et palindrom. 
 
@@ -29,10 +29,10 @@ true
 
 Gitt en fibonacci-sekvens, der høyeste verdi ikke går oven 4 millioner, finn summen av alle fibonacci-tall som i sekvensen som er partall. 
 
-Gå videre til [Oppgave 5 - Enhetstesting](./oppgave5.md) :arrow_right:
-
 Eksempel:
 ```elixir
 Oppgave4.fib_sum(4_000_000)
 4613732
 ```
+
+Gå videre til [Oppgave 5 - Enhetstesting](./oppgave5.md) :arrow_right:
