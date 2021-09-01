@@ -1,8 +1,8 @@
 defmodule Solutions.Oppgave3 do
-  """
+
+  @doc """
     Sum av alle oddetall opp til og med `limit`
   """
-
   @spec sumOfOdds(pos_integer()) :: pos_integer()
   def sumOfOdds(limit) do
     1..limit
@@ -10,7 +10,7 @@ defmodule Solutions.Oppgave3 do
     |> Enum.sum()
   end
 
-  """
+  @doc """
     FizzBizz ved bruk av Enum.map og cond
   """
 
@@ -27,7 +27,7 @@ defmodule Solutions.Oppgave3 do
     end)
   end
 
-  """
+  @doc """
     FizzBizz ved bruk av Enum.map og case
   """
 
@@ -44,7 +44,7 @@ defmodule Solutions.Oppgave3 do
     end)
   end
 
-  """
+  @doc """
     FizzBizz ved bruk av function pattern matching
   """
 
@@ -58,7 +58,7 @@ defmodule Solutions.Oppgave3 do
   defp fizzbuzz_val(num) when rem(num, 15) == 0, do: "Fizzbuzz"
   defp fizzbuzz_val(num), do: "#{num}"
 
-  """
+  @doc """
     Fibonacco-sekvens med rekursjon (Krevende utregningsmessig)
   """
   @spec fibonacci_slow(pos_integer()) :: pos_integer()
@@ -73,7 +73,7 @@ defmodule Solutions.Oppgave3 do
   def fibonacci_rec(1), do: 1
   def fibonacci_rec(n), do: fibonacci_rec(n - 1) + fibonacci_rec(n - 2)
 
-  """
+  @doc """
     Fibonacci-sekvens
   """
 
@@ -82,7 +82,7 @@ defmodule Solutions.Oppgave3 do
     initial = [1, 1]
 
     2..limit
-    |> Enum.reduce(initial, fn num, acc ->
+    |> Enum.reduce(initial, fn _num, acc ->
       [a, b] = Enum.take(acc, -2)
       acc ++ [a + b]
     end)
