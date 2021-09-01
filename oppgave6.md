@@ -49,7 +49,7 @@ Det går fint å legge disse metodene i samme fil som GenServer-callbacks.
 
 --
 
-## :bulb Kort om GenServer 
+## :bulb: Kort om GenServer 
 
 Her er et eksempel på en enkel implementasjon av en GenServer-prosess. Under kodesnutten finner du en kort forklaring på hva de enkelte funksjonene gjør.
 
