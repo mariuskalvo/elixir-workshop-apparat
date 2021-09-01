@@ -18,10 +18,10 @@ For å gå ut av `IEx`, bruk `CTRL + C`.
 ## Kjøring av fil i IEx
 Du kan laste inn filene i mix-prosjektet ditt inn i en IEx-sesjon ved å skrive `iex -S mix` i rot-katalogen av prosjektet ditt. 
 
-:pencil2: Last prosjektet `workshop_code` inn i en IEx-sesjon. Utfør innholdet i skriptet `lib/exercise1.ex` ved å skrive `Exercise1.run()`.
+:pencil2: Last prosjektet `workshop_code` inn i en IEx-sesjon. Utfør innholdet i skriptet `lib/oppgave2.ex` ved å skrive `Oppgave2.run()`.
 
-Etter du har utført en endring, kan du skrive `recompile` i REPL for å rekompilere prosjektet og gjøre nye endringer tilgjengelige. 
+Utfør en endring i `lib/oppgave2.ex` ved å f.eks endre retur-verdi i `run`-funksjonen. Kjør deretter `recompile` i IEx-REPL for å rekompilere prosjektet og gjøre nye endringer tilgjengelige. Kjør funksjonen på nyy.
 
-:pencil2: Prøv deg frem med å endre innholdet i `run`-metoden. Prøv å legg til en ny metode. Bli kjent med REPL. Den er veldig nyttig! 
+:pencil2: Prøv deg frem med å endre innholdet i `run`-metoden. Prøv å legg til en ny metode. Bli kjent med REPL. Den er veldig nyttig!
 
-:bulb: I de neste oppgavene kan du enten kjøre koden din via IEx REPL eller ved å kjøre `mix run -e <ModuleNavn>.<Funksjon>`. F.eks. `mix run -e Exercise1.run`. 
+:bulb: I de neste oppgavene kan du enten kjøre koden din via IEx REPL eller ved å kjøre `mix run -e <ModuleNavn>.<Funksjon>`. F.eks. `mix run -e Exercise1.run`. Det anbefales å bruke IEx for å få en raskere feedback-loop, slik du kan kjøre indivduelle funksjoner.

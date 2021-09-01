@@ -1,6 +1,6 @@
-# Oppgave 5: Rekursjon
+# Oppgave 4: Rekursjon
 
-# 5a: Fakultet
+# 4a: Fakultet
 Fakultetet av et tall N er produktet av alle tall i sekvensen 1..N. 
 F.eks. `5! = 1 * 2 * 3 * 4 * 5 = 120`
 Skriv en funksjon der du anvender rekursjon som tar inn et tall og returnerer fakultet av tallet.
@@ -13,7 +13,7 @@ WorkshopCode.Oppgave5.fakultet(10)
 3628800
 ```
 
-# 5b: Palindrom
+# 4b: Palindrom
 Et palindrom er en sekvens av bokstaver som kan leses på samme måte i begge retninger, som "madam" eller "agnes i senga". 
 Skriv en funksjon der du anvender rekursjon som tar inn en streng som parameter og sjekker om strenger er et palindrom. 
 
@@ -24,3 +24,7 @@ false
 WorkshopCode.Oppgave5.palindrom?("agnes i senga")
 true
 ```
+
+## 4c: Fibonacci 2.0
+
+Gitt en fibonacci-sekvens, der høyeste verdi ikke går oven 4 millioner, finn summen av alle fibonacci-tall i sekvensen som er partall. 

@@ -1,5 +1,5 @@
 defmodule Solutions.Pokemons do
-  alias WorkshopCode.Solutions.Pokemons.{InputHandler, PokemonApi, PokemonPrinter}
+  alias Solutions.Pokemons.{InputHandler, PokemonApi, PokemonPrinter}
 
   def run() do
     pokemons =
