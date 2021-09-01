@@ -6,7 +6,7 @@
 
 I denne workshop'en skal vi lære om Elixir og Erlang/OTP. Målet er at vi skal lære grunnleggende om språket og kjøretidsmiljøet. Det er laget et sett med oppgaver du kan jobbe med.
 
- Presentasjonen finner i lenken under.
+[Presentasjonen finner du her](https://docs.google.com/presentation/d/10rGqPs5ygYF5pFo9fUzE932YaUgsYS-PREf3-xHnZ0M/edit?usp=sharing)
 
 ## Verktøy
 
