@@ -1,4 +1,4 @@
-# Oppgave 6: Enhetstesting
+# Oppgave 5: Enhetstesting
 
 I Elixir trenger man ikke eksterne rammerverk for å skrive og kjøre enhetstester. Elixir inkluderer et testrammeverk, ExUnit, som inkluderer alt vi trenger for å skrive enhetstester. 
 
