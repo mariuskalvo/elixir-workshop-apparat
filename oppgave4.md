@@ -6,10 +6,10 @@ F.eks. `5! = 1 * 2 * 3 * 4 * 5 = 120`
 Skriv en funksjon der du anvender rekursjon som tar inn et tall og returnerer fakultet av tallet.
 
 ```elixir
-WorkshopCode.Oppgave5.fakultet(5)
+WorkshopCode.Oppgave4.fakultet(5)
 120
 
-WorkshopCode.Oppgave5.fakultet(10)
+WorkshopCode.Oppgave4.fakultet(10)
 3628800
 ```
 
@@ -18,10 +18,10 @@ Et palindrom er en sekvens av bokstaver som kan leses på samme måte i begge re
 Skriv en funksjon der du anvender rekursjon som tar inn en streng som parameter og sjekker om strenger er et palindrom. 
 
 ```elixir
-WorkshopCode.Oppgave5.palindrom?("apparat")
+WorkshopCode.Oppgave4.palindrom?("apparat")
 false
 
-WorkshopCode.Oppgave5.palindrom?("agnes i senga")
+WorkshopCode.Oppgave4.palindrom?("agnes i senga")
 true
 ```
 
