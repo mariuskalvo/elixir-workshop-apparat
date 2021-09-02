@@ -23,7 +23,7 @@ Eksempel:
   ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"...]
 ```
 
-## 4d: Fibonacci-sekvens
+## 3d: Fibonacci-sekvens
 
 Tallfølgen `1,1,2,3,5,8,13,...` er bygd opp ved at hvert tall i følgen er summen av de to foregående tallene i følgen. Dette kalles for en fibonacci-sekvens. 
 
