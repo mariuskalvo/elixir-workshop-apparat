@@ -1,4 +1,4 @@
-# Oppgave 7: Tilstand og GenServer
+# Oppgave 6: Tilstand og GenServer
 
 I denne oppgaven skal vi lage en GenServer-implementasjon, der vi kan lagre, liste ut og fjerne elementer i en todo-liste. 
 
