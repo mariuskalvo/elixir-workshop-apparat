@@ -31,7 +31,7 @@ Gitt en fibonacci-sekvens, der høyeste verdi ikke går oven 4 millioner, finn s
 
 Eksempel:
 ```elixir
-Oppgave4.fib_sum(4_000_000)
+Oppgave4.fib_sum()
 4613732
 ```
 
