@@ -30,11 +30,11 @@ Igjennom oppgavene vil du se disse ikonene i workshop-materialet.
 
 - [Oppgave 1 - Oppsett av utviklingsverktøy](./oppgave1.md)
 - [Oppgave 2 - IEx og REPL-dreven utvikling](./oppgave2.md)
-- [Oppgave 3 - Map, filter, reduce](./oppgave4.md)
-- [Oppgave 4 - Rekursjon](./oppgave5.md)
-- [Oppgave 5 - Enhetstesting](./oppgave6.md)
-- [Oppgave 6 - Tilstand og GenServer](./oppgave7.md)
-- [Oppgave 7 - Project: Pokemon API](./oppgave8.md)
+- [Oppgave 3 - Map, filter, reduce](./oppgave3.md)
+- [Oppgave 4 - Rekursjon](./oppgave4.md)
+- [Oppgave 5 - Enhetstesting](./oppgave5.md)
+- [Oppgave 6 - Tilstand og GenServer](./oppgave6.md)
+- [Oppgave 7 - Project: Pokemon API](./oppgave7.md)
 
 ## :information_source: Nyttige lenker
 - [elixir-lang.org documentation](https://elixir-lang.org/getting-started/introduction.html)
